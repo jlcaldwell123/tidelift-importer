@@ -6,7 +6,7 @@ This is a python script that takes in a dependency file and requests the depende
 python importer.py [dependency-file.csv]
 
 # Requirements
-1. A ".tidelift" file in the directory where the python script is run. The tidelift file should contain the following information:
+1. A ".tidelift" file in the directory where the python script is run. The tidelift file should contain the following information:  
 TIDELIFT_ORGANIZATION=[Your Orginization Name]  
 TIDELIFT_PROJECT=[Your Project Name]  
 TIDELIFT_API_KEY=[Project's API Key]
@@ -16,4 +16,4 @@ Platform  Package Version ...
 
 # Outcome
 1. The console will output each package as it is requested to the Catalog
-2. The task will be created in the catalog to approve the package
+2. The task will be created in the catalog to approve the package (should be automatically approved if manual review is turned off)
